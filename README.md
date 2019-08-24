@@ -1,6 +1,6 @@
 Orchard Core Resume website.
 
+Template used https://startbootstrap.com/template-overviews/resume/
 
-# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/) 
 
 
