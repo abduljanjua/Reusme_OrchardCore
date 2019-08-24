@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Development\\GitHub\\CMS.Web\\CMS.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Development\\GitHub\\CMS.Web\\CMS.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GitHub\\CMS.Web\\CMS.Web.csproj",
+        "projectName": "CMS.Web",
+        "projectPath": "C:\\Development\\GitHub\\CMS.Web\\CMS.Web.csproj",
+        "packagesPath": "C:\\Users\\JANJUA\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GitHub\\CMS.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JANJUA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.myget.org/F/orchardcore-preview/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Development\\GitHub\\ModuleName.OrchardCore\\ModuleName.OrchardCore.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\ModuleName.OrchardCore\\ModuleName.OrchardCore.csproj"
+              },
+              "C:\\Development\\GitHub\\ThemeProject.OrchardCore\\ThemeProject.OrchardCore.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\ThemeProject.OrchardCore\\ThemeProject.OrchardCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "OrchardCore.Application.Cms.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Development\\GitHub\\ModuleName.OrchardCore\\ModuleName.OrchardCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GitHub\\ModuleName.OrchardCore\\ModuleName.OrchardCore.csproj",
+        "projectName": "ModuleName.OrchardCore",
+        "projectPath": "C:\\Development\\GitHub\\ModuleName.OrchardCore\\ModuleName.OrchardCore.csproj",
+        "packagesPath": "C:\\Users\\JANJUA\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GitHub\\ModuleName.OrchardCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JANJUA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.myget.org/F/orchardcore-preview/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            },
+            "OrchardCore.ContentTypes.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Development\\GitHub\\ThemeProject.OrchardCore\\ThemeProject.OrchardCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GitHub\\ThemeProject.OrchardCore\\ThemeProject.OrchardCore.csproj",
+        "projectName": "ThemeProject.OrchardCore",
+        "projectPath": "C:\\Development\\GitHub\\ThemeProject.OrchardCore\\ThemeProject.OrchardCore.csproj",
+        "packagesPath": "C:\\Users\\JANJUA\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GitHub\\ThemeProject.OrchardCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JANJUA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.myget.org/F/orchardcore-preview/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            },
+            "OrchardCore.ResourceManagement": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            },
+            "OrchardCore.Theme.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-beta3-71077, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

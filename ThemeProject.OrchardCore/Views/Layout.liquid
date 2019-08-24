@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ Culture.Name }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% render_section "HeadMeta", required: false %}
+    <title>{% page_title Site.SiteName %}</title>
+    <!-- Custom fonts for this template -->
+	
+    <link href="/TheAgencyTheme/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- Custom styles for this template -->
+   <link href="/TheAgencyTheme/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.7.2/css/all.css" integrity="sha256-DVK12s61Wqwmj3XI0zZ9MFFmnNH8puF/eRHTB4ftKwk=" rel="stylesheet" type="text/css" />
+<link href="/ThemeProject.OrchardCore/css/resume.css" rel="stylesheet" type="text/css" />
+<link href="/TheAgencyTheme/bootstrap-grid-ext.css" rel="stylesheet" type="text/css" />
+
+    {% resources type: "Meta" %}
+    {% resources type: "HeadLink" %}
+    {% resources type: "Stylesheet" %}
+    {% resources type: "HeadScript" %}
+</head>
+<body id="page-top" dir="{{ Culture.Dir }}">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      {% shape "menu", alias: "alias:main-menu", cache_id: "main-menu", cache_tag: "alias:main-menu" %}
+       {% comment %} <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="{{ '~/#page-top' | href }}">{{ Site.SiteName }}</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            {% shape "menu", alias: "alias:main-menu", cache_id: "main-menu", cache_tag: "alias:main-menu" %}
+        </div>   {% endcomment %}
+    </nav>
+    {% render_section "Header", required: false %}
+    <div class="container-fluid p-0">
+        {% render_section "Content" %}
+    </div>
+    {% render_section "Footer", required: false %}
+    <script src="/TheAgencyTheme/vendor/jquery/jquery.js" type="text/javascript"></script>
+<script src="/TheAgencyTheme/vendor/bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+<script src="/TheAgencyTheme/vendor/jquery-easing/jquery.easing.js" type="text/javascript"></script>
+<script src="/ThemeProject.OrchardCore/js/resume.js" type="text/javascript"></script>
+    {% resources type: "FootScript" %}
+</body>
+</html>
